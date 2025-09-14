@@ -490,8 +490,8 @@ import torch
 # hyperparameters
 parser = argparse.ArgumentParser()
 parser.add_argument('--layers', type=int, default=5, help="number of layers")
-parser.add_argument('--eta', type=float, default=0.1, help='learning rate')
-parser.add_argument('--eps', type=float, default=0.01, help='eps squared')
+parser.add_argument('--eta', type=float, default=0.01, help='learning rate')
+parser.add_argument('--eps', type=float, default=0.1, help='eps squared')
 parser.add_argument('--tail', type=str, default='', help='extra information to add to folder name')
 parser.add_argument('--save_dir', type=str, default='saved_models/', help='base directory for saving PyTorch model.')
 parser.add_argument('--data_dir', type=str, default='saved_models/data/', help='base directory for saving PyTorch model.')
